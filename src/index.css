@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: rgb(27, 27, 27);
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+@layer utilities {
+  .bg-gradient-radial {
+    background-image: linear-gradient(-45deg, #65b7ff, #8b83e0);
+    color: white;
+  }
+}
+
+@keyframes cursorBlink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px; /* realistic thickness */
+  background: #ffffff; /* white cursor */
+  margin-left: 4px;
+  animation: cursorBlink 0.8s infinite;
+}
+
+@keyframes slowPulse {
+  0%, 100% { opacity: 0.18 }
+  50% { opacity: 0.32 }
+}
+
+@keyframes slowerPulse {
+  0%, 100% { opacity: 0.12 }
+  50% { opacity: 0.22 }
+}
+
+.animate-slowPulse {
+  animation: slowPulse 6s ease-in-out infinite;
+}
+
+.animate-slowerPulse {
+  animation: slowerPulse 10s ease-in-out infinite;
+}
