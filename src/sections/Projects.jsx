@@ -4,7 +4,7 @@ import Easicall from "../assets/Easicall-(2).png";
 import Motalk from "../assets/Motalk.png";
 import Saftel from "../assets/Saftel.png";
 import MCC from "../assets/MCC.png";
-import MoConnect from "../assets/MoConnect.png";
+import MoConnect from "../assets/Moconnect.png";
 import Jeera from "../assets/JeeraDashboard.png";
 import Safin from "../assets/SafinTech.png";
 import Wateen from "../assets/Wateen.png";
