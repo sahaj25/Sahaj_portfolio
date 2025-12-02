@@ -2,7 +2,7 @@ import React from "react";
 import ParticlesBackground from "../components/ParticlesBackground";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
-import astronaut from "../assets/Astra.png"; // <-- your astronaut image
+import astronaut from "../assets/contact.png"; // <-- your astronaut image
 
 const Contact = () => {
   const onSubmit = async (e) => {
